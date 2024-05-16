@@ -22,5 +22,8 @@
   "scripts": {
     "build": "rm -rf ./dist && npx tsc",
     "docs": "npx typedoc --entryPointStrategy expand ./src"
+  },
+  "dependencies": {
+    "axios": "^1.6.8"
   }
 }
